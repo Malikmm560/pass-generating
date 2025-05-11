@@ -1,7 +1,92 @@
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
-    Arial, sans-serif;
-  margin: auto;
-  max-width: 38rem;
-  padding: 2rem;
+  font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
+  margin: 0;
+  min-height: 100vh;
+  max-width: 100vw;
+  padding: 0;
+  background-color: rgb(67, 67, 67);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.input{
+  background-color: rgb(42, 42, 42);
+  margin-left: 10px;
+  color: white;
+  border-radius: 15px;
+  height: 40px;
+  width: 300px;
+  border-color: transparent;
+}
+
+.text{
+  border-color: transparent;
+  color: rgb(255, 255, 255);
+  font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
+  font-size: medium;
+  border-radius: 15px;
+  background-color: royalblue;
+  cursor: pointer;
+
+
+}
+
+
+.text_1{
+  color: rgb(255, 255, 255);
+  font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
+  font-size: medium;
+}
+.div {
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+}
+.creator-credit {
+  position: fixed;
+  bottom: 10px;
+  right: 20px;
+  color: #fff;
+  font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  opacity: 0.7;
+  z-index: 100;
+}
+
+.input-row {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  justify-content: center;
+}
+.buttonclear{
+  margin-left: 10px;
+  height: 40px;
+  border-radius: 15px;
+  background-color: rgb(105, 93, 78);
+  border-color: transparent;
+  color: white;
+}
+.copy-btn {
+  margin-left: 10px;
+  height: 40px;
+  border-radius: 15px;
+  background-color: royalblue;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
+  font-size: medium;
+}
+
+.generate-btn {
+  margin-right: 10px;
+  height: 40px;
+  border-radius: 15px;
+  background-color: royalblue;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
+  font-size: medium;
 }

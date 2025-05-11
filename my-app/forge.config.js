@@ -3,6 +3,7 @@ const { FuseV1Options, FuseVersion } = require('@electron/fuses');
 
 module.exports = {
   packagerConfig: {
+    icon: 'my-app/src/images/icon.ico', // Use forward slashes
     asar: true,
   },
   rebuildConfig: {},

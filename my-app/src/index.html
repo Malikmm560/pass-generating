@@ -2,11 +2,24 @@
 <html>
   <head>
     <meta charset="UTF-8" />
-    <title>Hello World!</title>
+    <title>password generator</title>
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>
- 
+    <div class="base">
+      <p class="text"></p>
+      <div class="input-row">
+        <button onclick="button_gen()" class="text generate-btn">generate!</button>
+        <input type="text" placeholder="generates password" class="input" id="input" readonly>
+        <button onclick="button()" class="text copy-btn">copy</button>
+        <button onclick="clearInput()" class="buttonclear">clear</button>
+        <span id="copy-msg" style="color:lightgreen; margin-left:10px; display:none;">Copied!</span>
+        <span id="strength-msg" style="margin-left:10px;"></span>
+      </div>
+      <p class="text_1">click copy</p>
+    </div>
+    <div class="creator-credit">creator: malik</div>
+    <script src="pass_gen.js"></script>
     
   </body>
 </html>
